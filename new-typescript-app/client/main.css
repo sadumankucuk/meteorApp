@@ -1,0 +1,45 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.login-form {
+    width: 300px;
+}
+
+.avatar-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.avatar-center-register {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading-logo {
+    font-size: 32px;
+    color: #08c;
+}
+
+@media (max-width: 1000px) {
+    .login-form {
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 1000px) {
+    .login-form {
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
